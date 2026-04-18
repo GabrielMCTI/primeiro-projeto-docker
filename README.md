@@ -44,7 +44,7 @@ Aplicação web simples com fluxo de autenticação (login, cadastro e dashboard
 ### 1. Clone o repositório
 
 ```
-git clone https://github.com/GabrielMCTI/meu-projeto-docker.git
+git clone https://github.com/GabrielMCTI/primeiro-projeto-docker
 ```
 
 ### 2. Acesse a pasta
