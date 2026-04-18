@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+}
+
+/* Card de login */
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  padding: 40px;
+  border-radius: 16px;
+  width: 300px;
+  text-align: center;
+  color: white;
+
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+
+/* Título */
+.container h2 {
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+
+  background: rgba(255,255,255,0.2);
+  color: white;
+}
+
+/* Placeholder */
+input::placeholder {
+  color: #ddd;
+}
+
+/* Botão */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+
+  background: #00c6ff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0072ff;
+  transform: scale(1.05);
+}
+
+/* Mensagem */
+#message {
+  margin-top: 15px;
+  font-size: 14px;
+}
